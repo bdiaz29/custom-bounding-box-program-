@@ -896,7 +896,7 @@ save_btn.grid(column=1, row=4)
 save_toggle_btn = Button(file_frame, text="save/unsave", command=toggle_save)
 save_toggle_btn.grid(column=2, row=5)
 
-window.bind("<space>", save_load_next)
+#window.bind("<space>", save_load_next)
 window.bind("<Left>", leftKey)
 window.bind("<Right>", rightKey)
 picture_lbl.bind("<ButtonPress-3>", register_right_click)
