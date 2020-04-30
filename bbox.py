@@ -24,7 +24,7 @@ wb = xlwt.Workbook()
 ws = wb.add_sheet('data', cell_overwrite_ok=True)
 # .grid(column=, row=)
 window = Tk()
-window.title("frame extracting application")
+window.title("box bounding application")
 window.geometry('1300x1000')
 source = ""
 destination = ""
